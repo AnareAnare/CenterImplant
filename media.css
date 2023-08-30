@@ -1,0 +1,92 @@
+@media (max-width: 1440px) {
+    .header {
+        min-height: 0;
+    }
+
+    .header__info_container {
+        grid-template: "logo metro timetable"
+                       "- tel call";
+        justify-items: start;
+    }
+
+    .header__hero_img {
+        width: 652px;
+        height: 594px;
+    }
+
+    .header__hero_title {
+        font-size: 40px;
+    }
+
+    .header__metro {
+        padding-left: 0;
+    }
+
+    .header__timetable {
+        padding-left: 0;
+    }
+
+    .header__telephone {
+        padding-top: 0;
+    }
+
+    .header__call-me {
+        padding-top: 0;
+    }
+
+    .implants__text_name {
+        font-size: 28px;
+    }
+
+    .discounts__item_img1 {
+        width: 371px;
+        height: 239px; 
+    }
+
+    .services__item_title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .header__hero_img {
+        align-self: end;
+        width: 476px;
+        height: 422px;
+    }
+
+    .header__hero_text {
+        padding-top: 0;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .header__hero_title {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+
+    .implants__item:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .implants {
+        margin-bottom: 20px;
+    }
+
+    .harry-up {
+        padding-top: 54px;
+    }
+
+    .harry-up__title {
+        font-size: 50px; 
+    }
+
+    .rejuvenation__title {
+        font-size: 40px;
+    }
+
+    .sign-up__title {
+        font-size: 50px;
+    }
+}
