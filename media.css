@@ -57,7 +57,6 @@
 
     .header__hero_text {
         padding-top: 0;
-        padding-right: 0;
         padding-bottom: 20px;
     }
 
@@ -74,6 +73,25 @@
         margin-bottom: 20px;
     }
 
+    .implants__img {
+        width: 71px;
+        height: 71px; 
+    }
+
+    .implants__discount {
+        width: 88px;
+        height: 88px;
+        font-size: 12px;  
+    }
+
+    .implants__discount_percent {
+        font-size: 25px; 
+    }
+
+    .implant-reminder {
+        font-size: 22px;
+    }
+
     .harry-up {
         padding-top: 54px;
     }
@@ -82,11 +100,323 @@
         font-size: 50px; 
     }
 
+    .discounts__item_title {
+        font-size: 28px;
+    }
+
+    .discounts__item_img2 {
+        right: 147px;
+        bottom: 12px;
+        width: 256px;
+        height: 236px;
+    }
+
+    .discounts__round1 {
+        width: 106px;
+        height: 106px;
+        bottom: 55px;
+    }
+
+    .discounts__round2 {
+        width: 106px;
+        height: 106px;
+        bottom: 55px;
+    }
+
+    .discounts__item__assurance {
+        height: 32px;
+        right: -84px;
+        top: 40px;
+        font-size: 10px; 
+    }
+
+    .discounts__item_suntitle {
+        font-size: 25px; 
+    }
+
+    .green-price {
+        font-size: 45px;  
+    }
+
+    .harry-up__item_text {
+        font-size: 16px;
+    }
+
+    .safe-treatment {
+        min-height: 0;
+        font-size: 22px; 
+    }
+
+    .safe-treatment__img {
+        width: 116px;
+        height: 130px; 
+    }
+
+    .rejuvenation {
+        min-height: 0;
+    }
+
     .rejuvenation__title {
         font-size: 40px;
     }
 
     .sign-up__title {
         font-size: 50px;
+    }
+
+    .sign-up__paragraph {
+        margin-bottom: 26px;
+        font-size: 30px; 
+    }
+
+    .services__item {
+        width: calc((100% - 20px) / 2); 
+    }
+
+    .cooperation {
+        margin-bottom: 89px;
+    }
+
+    .cooperation__list {
+        max-height: 128px; 
+    }
+
+    .cooperation__title {
+        font-size: 30px; 
+    }
+
+    .cooperation__nobel {
+        gap: 50px; 
+    }
+
+    .contacts {
+        padding-top: 65px; 
+        padding-bottom: 47px; 
+    }
+}
+
+@media (max-width: 1160px) {
+    .discounts__item_img1 {
+        width: 305px;
+        height: 210px;
+        right: 102px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__telephone {
+        font-size: 24px;
+    }
+
+    .header__hero_title {
+        font-size: 30px; 
+    }
+
+    .header__hero_img {
+        width: 390px;
+        height: 355px; 
+        margin-right: 5px;
+    }
+
+    .implants__img {
+        width: 61px;
+        height: 61px;
+    }
+
+    .implants__item {
+        font-size: 12px;
+    }
+
+    .implants__text_name {
+        font-size: 18px;
+    }
+
+    .implants__text_size {
+        font-size: 14px;
+    }
+
+    .implants__text_strikethrough {
+        font-size: 12px;
+    }
+
+    .implants__discount {
+        width: 68px;
+        height: 68px;
+        font-size: 9px; 
+    }
+
+    .implants__discount_percent {
+        padding-top: 5px;
+        font-size: 20px;
+    }
+
+    .implants__discount_number {
+        padding-top: 4px;
+        font-size: 14px;
+    }
+
+    .implant-reminder {
+        min-height: 0;
+        font-size: 14px;
+        border-radius: 0px 12px;
+    }
+
+    .implant-reminder__number_big {
+        font-size: 18px;
+    }
+
+    .implant-reminder__number_middle {
+        margin-right: 8px;
+        font-size: 15px;
+    }
+
+    .harry-up {
+        padding-bottom: 65px;
+    }
+
+    .harry-up__title {
+        margin-bottom: 40px;
+        font-size: 38px;
+    }
+
+    .south-korea {
+        width: 40px;
+        height: 40px;
+    }
+
+    .discounts__item_title {
+        font-size: 18px;
+    }
+
+    .discounts__item_paragraph {
+        padding-top: 6px;
+        font-size: 12px; 
+    }
+
+    .discounts__item {
+        min-height: 0;
+    }
+
+    .discounts__item_top {
+        min-height: 0;
+        margin-bottom: 21px;
+    }
+
+    .dashed {
+        min-height: 184px;
+        padding: 14px 14px;
+    }
+
+    .discounts__item_img1 {
+        width: 228px;
+        height: 150px;
+    }
+
+    .discounts__round1 {
+        width: 68px;
+        height: 68px;
+        bottom: 36px;
+        right: 57px;
+    }
+
+    .discounts__item_img2 {
+        width: 174px;
+        height: 142px;
+    }
+
+    .discounts__round2 {
+        width: 80px;
+        height: 80px;
+        bottom: 20px;
+    }
+
+    .discounts__item__assurance {
+        padding: 5px;
+        height: 20px;
+        right: -98px;
+        top: 32px;
+        font-size: 8px; 
+    }
+
+    .discounts__item_suntitle {
+        font-size: 16px;
+    }
+
+    .included-list__item {
+        padding-left: 21px;
+        font-size: 12px; 
+    }
+
+    .included-list__item::before {
+        width: 15px;
+        height: 15px; 
+    }
+
+    .green-price {
+        padding-top: 16px;
+        font-size: 26px;
+    }
+
+    .instead-price {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .implants__text_strikethrough {
+        font-size: 14px;
+    }
+
+    .discounts__book-button {
+        padding: 13px 12px 21px;
+        min-width: 193px;
+        font-size: 12px; 
+    }
+
+    .harry-up__item_text {
+        font-size: 12px;
+    }
+
+    .harry-up__item_paragraph {
+        font-size: 10px;
+    }
+
+    .harry-up__benefits {
+        column-gap: 20px;
+        row-gap: 10px;
+        margin-bottom: 14px;
+    }
+
+    .harry-up__item {
+        min-height: 0;
+        padding: 25px 27px 19px;
+    }
+
+    .harry-up__item_img {
+        width: 66px;
+        height: 66px;
+        margin-bottom: 20px;
+    }
+
+    .safe-treatment {
+        font-size: 16px;
+        border-radius: 14px; 
+    }
+
+    .safe-treatment__img {
+        width: 59px;
+        height: 67px;
+    }
+
+    .rejuvenation {
+        background: url(./img/rejuvenation768.webp) no-repeat top left;
+        background-size: 100%;
+    }
+
+    .rejuvenation__text {
+        padding-top: 660px;
+    }
+
+    .rejuvenation__container {
+        justify-content: center;
     }
 }
