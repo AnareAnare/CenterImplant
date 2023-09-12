@@ -201,6 +201,22 @@
         height: 210px;
         right: 102px;
     }
+
+    .sign-up__info {
+        flex-direction: column;
+        gap: 46px;
+    }
+
+    .sign-up__img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sign-up__img img {
+        width: 630px;
+        height: 591px;
+        border-radius: 19px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -418,5 +434,337 @@
 
     .rejuvenation__container {
         justify-content: center;
+    }
+
+    .services__title {
+        margin-bottom: 35px;
+        font-size: 42px;
+    }
+
+    .sertificate {
+        gap: 16px;
+    }
+
+    .sertificate__img {
+        width: 107px;
+        height: 151px;
+    }
+
+    .cooperation__nobel {
+        gap: 90px;
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__info_container {
+        grid-template-columns: 220px 1fr 1fr;
+        grid-template-rows: 86px;
+    }
+
+    .header__metro {
+        padding-left: 29px;
+        padding-top: 8px;
+    }
+
+    .header__timetable {
+        padding-top: 13px;
+        padding-left: 24px;
+    }
+
+    .header__telephone {
+        padding-left: 28px;
+    }
+
+    .header__call-me {
+        padding-left: 25px;
+    }
+
+    .header__hero {
+        padding-top: 0;
+    }
+
+    .header__hero_img {
+        margin-right: 0;
+    }
+
+    .header__hero_text {
+        padding-top: 69px;
+    }
+
+    .header__hero_title {
+        margin-bottom: 16px;
+    }
+
+    .implants__item:not(:last-child) {
+        margin-bottom: 3px;
+    }
+
+    .implants {
+        margin-bottom: 8px;
+    }
+
+    .implants__img {
+        margin-right: 24px;
+    }
+
+    .implants__text {
+        margin-right: 35px;
+    }
+
+    .implant-reminder {
+        padding: 8px;
+    }
+
+    .discounts__item_top {
+        margin-bottom: 17px;
+    }
+
+    .discounts__item_suntitle {
+        padding-left: 16px;
+    }
+
+    .dashed {
+        min-height: 177px;
+        padding: 10px 7px;
+        gap: 6px;
+    }
+
+    .discounts__item_img1 {
+        right: 63px;
+    }
+
+    .discounts__round1 {
+        right: 25px;
+    }
+
+    .included-list {
+        padding-left: 16px;
+    }
+
+    .discounts__item_suntitle {
+        margin-bottom: 8px;
+    }
+
+    .included-list__item {
+        line-height: 165%;
+    }
+
+    .green-price {
+        padding-top: 12px;
+    }
+
+    .instead-price {
+        margin-bottom: 15px;
+    }
+
+    .discounts__book-button {
+        padding: 8px 12px 16px;
+    }
+
+    .harry-up__item {
+        padding: 32px 27px 19px;
+    }
+    
+    .safe-treatment {
+        padding: 13px 49px;
+    }
+
+    .safe-treatment__img {
+        margin-right: 42px;
+    }
+
+    .rejuvenation__text {
+        padding-top: 532px;
+        padding-left: 75px;
+    }
+
+    .rejuvenation__title {
+        margin-bottom: 16px;
+        font-size: 37px;
+    }
+
+    .rejuvenation__effect {
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+
+    .rejuvenation__paragraph {
+        margin-bottom: 29px;
+        font-size: 15px;
+    }
+
+    .rejuvenation__list {
+        row-gap: 17px;
+        margin-bottom: 29px;
+    }
+
+    .rejuvenation__list_item {
+        padding-left: 36px;
+        padding-right: 25px;
+        font-size: 14px;
+    }
+
+    .rejuvenation__list_item::before {
+        width: 20px;
+        height: 20px;
+    }
+
+    .rejuvenation__btn {
+        padding: 13px 32px;
+        font-size: 12px;
+    }
+
+    .sign-up__title {
+        margin-bottom: 17px;
+        font-size: 40px;
+    }
+
+    .sign-up {
+        padding-top: 76px;
+        padding-bottom: 50px;
+    }
+
+    .sign-up__paragraph {
+        max-width: 439px;
+        font-size: 24px;
+    }
+
+    .services {
+        padding-top: 0;
+        padding-bottom: 85px;
+    }
+
+    .services__link {
+        padding: 39px 19px 21px 28px;
+    }
+
+    .services__list {
+        margin-bottom: 45px;
+        column-gap: 20px;
+        row-gap: 15px;
+    }
+
+    .services__item {
+        min-height: 0;
+    }
+
+    .services__item_title {
+        margin-bottom: 24px;
+    }
+
+    .services__item_item {
+        font-size: 12px;
+    }
+
+    .services__item_list {
+        margin-bottom: 16px;
+    }
+
+    .services__item_flex1, .services__item_info {
+        padding: 3px 16px;
+    }
+
+    .services__item_flex {
+        gap: 3px;
+        font-size: 11px;
+    }
+
+    .services__item_info {
+        font-size: 11px;
+    }
+
+    .services__link_p {
+        padding: 21px 16px 21px 28px;
+    }
+
+    .services__item_titlem {
+        margin-bottom: 15px;
+    }
+
+    .services__item_from {
+        right: 23px;
+        font-size: 14px;
+    }
+
+    .services__link::after {
+        width: 94px;
+        height: 86px;
+    }
+
+    .services__item_item {
+        line-height: 130%;
+    }
+
+    .services__btn {
+        font-size: 16px;
+        padding: 17px 53px;
+    }
+    
+    .cooperation__title {
+        margin-bottom: 35px;
+        font-size: 28px;
+        padding-left: 38px;
+    }
+
+    .cooperation__green {
+        padding-top: 48px;
+    }
+
+    .cooperation__paragraph {
+        margin-bottom: 22px;
+        padding-left: 37px;
+    }
+
+    .cooperation__item {
+        padding-left: 28px;
+        margin-bottom: 0;
+    }
+
+    .cooperation__list {
+        margin-bottom: 41px;
+        padding-left: 40px;
+        column-gap: 45px;
+        row-gap: 7px;
+    }
+
+    .cooperation__nobel {
+        padding-left: 38px;
+    }
+
+    .cooperation__nobel_text {
+        padding-top: 20px;
+    }
+
+    .cooperation__nobel_paragraph {
+        padding-left: 28px;
+        font-size: 16px;
+    }
+
+    .cooperation__nobel_title {
+        margin-bottom: 10px;
+    }
+
+    .practicing-list {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0px 37px;
+    }
+
+    .practicing-list__item::before {
+        width: 24px;
+        height: 24px;
+    }
+
+    .cooperation__paragraph_m {
+        margin-bottom: 17px;
+    }
+
+    .sertificate {
+        padding-top: 31px;
+    }
+
+    .contacts {
+        min-height: 0;
     }
 }
